@@ -1,7 +1,15 @@
+nav {
+	display: flex;
+	height: 2rem;
+}
 .header-title {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.header-logo {
+	padding-right: 7rem;
 }
 
 .main-header-title {
@@ -11,11 +19,6 @@
 
 .header-nav {
 	background-color: #a73a18;
-}
-
-nav {
-	display: flex;
-	height: 2rem;
 }
 
 .nav-item {
