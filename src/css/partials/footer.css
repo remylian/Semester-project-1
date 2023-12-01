@@ -1,0 +1,26 @@
+footer {
+	background-color: #a73a18;
+	color: white;
+}
+
+.footer-items {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-block: 3rem;
+}
+
+.footer-legal {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-legal a {
+	color: white;
+}
+
+.socialmedia-icons {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}

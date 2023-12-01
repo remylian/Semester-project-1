@@ -1,0 +1,25 @@
+.header-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-header-title {
+	color: #105e68;
+	padding-left: 5rem;
+}
+
+.header-nav {
+	background-color: #a73a18;
+}
+
+nav {
+	display: flex;
+	height: 2rem;
+}
+
+.nav-item {
+	color: white;
+	font-size: 1rem;
+	padding-left: 5rem;
+}
