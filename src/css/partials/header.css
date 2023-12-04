@@ -1,6 +1,8 @@
 nav {
 	display: flex;
-	height: 2rem;
+	height: 3rem;
+	align-items: center;
+	gap: 4rem;
 }
 .header-title {
 	display: flex;
@@ -8,13 +10,18 @@ nav {
 	align-items: center;
 }
 
-.header-logo {
-	padding-right: 7rem;
+a {
+	text-decoration: none;
+	padding-block: 1rem;
 }
 
 .main-header-title {
 	color: #105e68;
 	padding-left: 5rem;
+}
+
+.header-logo {
+	padding-right: 5rem;
 }
 
 .header-nav {
@@ -24,5 +31,15 @@ nav {
 .nav-item {
 	color: white;
 	font-size: 1rem;
+	padding: 1rem;
+}
+
+.nav-home {
 	padding-left: 5rem;
+}
+
+.nav-item:hover {
+	color: #a73a18;
+	background-color: white;
+	transition: 1s;
 }

@@ -1,0 +1,12 @@
+:root {
+	--border-rad-full: 1rem;
+
+	--box-shadow: 3px 4px 4px 0px black;
+
+	--font-family-fuzzy: 'fuzzy';
+
+	--font-size-1: 1rem;
+	--font-size-2: 2rem;
+
+	--border-bottom: 1px solid black;
+}
