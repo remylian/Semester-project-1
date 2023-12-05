@@ -1,3 +1,7 @@
 @import url('./src/css/partials/header.css');
 @import url('./src/css/partials/footer.css');
 @import url('./src/css/partials/reset.css');
+
+.banner {
+	width: 100%;
+}
