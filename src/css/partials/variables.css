@@ -1,12 +1,12 @@
 :root {
 	--border-rad-full: 1rem;
 
-	--box-shadow: 3px 4px 4px 0px black;
+	--title-fontSize: 3rem;
 
-	--font-family-fuzzy: 'fuzzy';
+	--noMargin: 0;
 
-	--font-size-1: 1rem;
-	--font-size-2: 2rem;
+	--main-clr: #568bb5;
+	--secondary-clr: #18a78d;
 
-	--border-bottom: 1px solid black;
+	--bubble-font: 'fuzzy bubbles';
 }

@@ -36,3 +36,12 @@
 					</table>
 
 
+classes and where/why i use them: 
+
+wrapper:
+box: 
+container: 
+
+
+adress for video embed
+https://www.youtube.com/watch?v=UjEngEpiJKo&ab_channel=melodysheep

@@ -1,6 +1,12 @@
 footer {
-	background-color: #a73a18;
+	border-top: 1px solid black;
+	background-color: var(--main-clr);
+	font-family: var(--bubble-font);
+}
+
+ul {
 	color: white;
+	margin: var(--nomargin);
 }
 
 .footer-items {
@@ -22,5 +28,4 @@ footer {
 .socialmedia-icons {
 	display: flex;
 	justify-content: space-between;
-	list-style: none;
 }
