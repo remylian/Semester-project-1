@@ -1,60 +1,61 @@
 header h2 {
 	margin: 0;
-	font-size: var(--title-fontSize);
-	font-family: var(--bubble-font);
-	color: var(--secondary-clr);
+	color: var(--main-clr);
 }
 
 .header-title-1 {
-	padding-bottom: 1.25rem;
-	padding-left: 4rem;
 	text-align: center;
+	padding-left: 3rem;
 }
 
+.img-wrapper img {
+	width: 400px;
+}
 .title-wrapper {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	gap: 3rem;
 }
 
 .nav-main {
 	padding-block: 1rem;
-	/* border-top: 1px solid var(--secondary-clr); */
+	background-color: var(--main-clr);
 	display: flex;
 	justify-content: center;
 	gap: 6rem;
 }
 
-.nav-items {
-	font-size: 1.5rem;
+.nav-item {
+	font-size: 1.25rem;
+	transition: color 0.3s ease;
+	position: relative;
 	font-family: var(--bubble-font);
 	font-weight: bold;
-	color: var(--main-clr);
-}
-
-.nav-items {
-	position: relative;
-	transition: color 0.3s ease;
-	color: var(--main-clr);
+	color: white;
 	text-decoration: none;
 }
 
-.nav-items::after {
+.nav-item::after {
 	content: '';
 	position: absolute;
-	bottom: -5px;
+	bottom: -2px;
 	left: 50%;
 	transform: translateX(-50%);
 	width: 0;
 	height: 2px;
-	transition: width 0.4s ease;
-	background-color: var(--secondary-clr);
+	transition: width 0.3s ease;
+	background-color: white;
 }
 
-.nav-items:hover {
-	color: var(--main-clr);
+.nav-item:hover {
+	color: white;
 }
 
-.nav-items:hover::after {
+.nav-item:hover::after {
 	width: 100%;
+}
+
+.nav-item .active {
+	text-decoration: underline;
 }

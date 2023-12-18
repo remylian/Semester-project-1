@@ -3,6 +3,10 @@
 @import url('./src/css/partials/reset.css');
 @import url('./src/css/partials/variables.css');
 
+body {
+	font-family: var(--bubble-font);
+}
+
 .banner {
 	width: 100%;
 }

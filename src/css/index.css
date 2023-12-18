@@ -2,6 +2,98 @@
 	width: 100%;
 }
 
-.banner-txt {
+.welcome-txt h2 {
+	font-family: var(--bubble-font);
+	font-size: var(--title-fontsize);
 	text-align: center;
+}
+
+.welcome-msg {
+	display: flex;
+	justify-content: center;
+	font-size: 1.25rem;
+}
+
+.explore h3 {
+	text-align: center;
+	font-weight: var(--bold-font);
+	font-family: var(--bubble-font);
+	margin: var(--no-margin);
+	padding-block: 2rem;
+	font-size: var(--title-fontsize);
+}
+
+.explore-kids {
+	display: flex;
+	justify-content: center;
+}
+
+.explore-kids img {
+	width: 50%;
+	height: auto;
+}
+
+.explore-kids-msg {
+	max-width: 50rem;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1.25rem;
+	border-bottom: 2px solid var(--main-clr);
+}
+
+.explore-teachers {
+	padding: 2rem;
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	padding-bottom: 2rem;
+}
+
+.explore-teachers img,
+.explore-research img {
+	max-width: 25rem;
+}
+
+.explore-teachers-msg,
+.explore-research-msg {
+	max-width: 25rem;
+	font-size: 1.25rem;
+}
+
+.explore-teachers-msg p,
+.explore-research-msg p {
+	margin: var(--no-margin);
+}
+
+.explore-teachers-buttons,
+.explore-research-button {
+	padding-block: 2rem;
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid var(--main-clr);
+}
+
+.explore-teachers-button,
+.explore-research-button-1 {
+	padding: 1rem;
+	background-color: var(--secondary-clr);
+	color: white;
+	text-decoration: none;
+	border: 0.3px solid grey;
+	box-shadow: 3px 3px 3px var(--main-clr);
+	border-radius: 0.25rem;
+	text-align: center;
+}
+
+/* .explore-teachers-button:hover {
+	border: 1px solid black;
+	box-shadow: 0px -3px -3px #18a78d;
+} */
+/* HUSK Å FINNE UT AV SKYGGELEGGING */
+
+.explore-research {
+	display: flex;
+	gap: 2rem;
+	justify-content: center;
+	padding-block: 2rem;
 }
