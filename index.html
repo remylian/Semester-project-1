@@ -5,42 +5,59 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>CSM - home</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap"
+			rel="stylesheet" />
 		<link rel="stylesheet" href="/styles.css" />
 		<link rel="stylesheet" href="/src/css/index.css" />
 	</head>
 
 	<body>
 		<header>
-			<div class="header-title">
-				<h1 class="main-header-title">COMMUNITY SCIENCE MUSEUM</h1>
+			<section class="header-title">
+				<h2 class="header-title-1">COMMUNITY</h2>
 
-				<div class="header-logo">
-					<img src="/assets/images/icons/fed-ex logo.svg" alt="the museum logo" />
+				<div class="title-wrapper">
+					<h1>
+						<h2>SCIENCE</h2>
+						<div class="wrapper">
+							<a href="">
+								<img src="/assets/images/icons/logo-final.svg" alt="" />
+							</a>
+						</div>
+						<h2>MUSEUM</h2>
+					</h1>
 				</div>
-			</div>
+			</section>
 
-			<nav class="header-nav">
-				<a class="nav-item nav-home" href="#">HOME</a>
-				<a class="nav-item nav-explore" href="#">EXPLORE</a>
-				<a class="nav-item nav-contribute" href="#">GET INVOLVED</a>
-				<a class="nav-item nav-exhibition" href="#">EXHIBITIONS</a>
-				<a class="nav-item nav-contact" href="#">CONTACT</a>
+			<nav class="nav-main">
+				<a href="" class="nav-items nav-contact">CONTACT</a>
+				<a href="" class="nav-items nav-exhibit">EXHIBITION</a>
+				<a href="" class="nav-items nav-home">HOME</a>
+				<a href="" class="nav-items nav-contribute">GET INVOLVED</a>
+				<a href="" class="nav-items nav-legal">LEGAL</a>
 			</nav>
 		</header>
 
 		<main>
-			<img class="banner" src="/assets/images/banners/banner-home.png" alt="" />
-
+			<div class="hero-banner">
+				<img src="/assets/images/banners/together-kids.jpg" alt="" />
+				<h2 class="banner-txt">EXPLORE TOGETHER!</h2>
+			</div>
 			<div class="splitter"></div>
 		</main>
 
 		<footer>
 			<ul class="footer-items">
 				<li>
-					<h3>Adress</h3>
-					<address>Community Science Museum</address>
-					<address>Bigbrainstreet 42</address>
-					<address>1337 Leetland</address>
+					<h3>ADDRESS</h3>
+					<address>
+						Community Science Museum <br />
+						Bigbrainstreet 42 <br />
+						1337 Leetland
+					</address>
 				</li>
 
 				<li>
@@ -89,20 +106,14 @@
 					<a href="#">TERMS & CONDITIONS</a>
 				</li>
 
-				<li>
+				<li class="socialmedia">
 					<h3>SHARE THE FUN!</h3>
 
-					<ul class="socialmedia-icons">
-						<li>
-							<a href="#"><img src="/assets/images/icons/insta-icon.svg" alt="" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="/assets/images/icons/fb-icon.svg" alt="" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="/assets/images/icons/twitter-icon.svg" alt="" /></a>
-						</li>
-					</ul>
+					<div class="socialmedia-icons">
+						<a href="#"><img src="/assets/images/icons/insta-icon.svg" alt="" /></a>
+						<a href="#"><img src="/assets/images/icons/fb-icon.svg" alt="" /></a>
+						<a href="#"><img src="/assets/images/icons/twitter-icon.svg" alt="" /></a>
+					</div>
 				</li>
 			</ul>
 		</footer>
