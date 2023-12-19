@@ -1,10 +1,12 @@
-.hero-banner img {
-	width: 100%;
+.hero-banner {
+	display: flex;
+	justify-content: center;
+	background-color: black;
 }
 
 .welcome-txt h2 {
 	font-family: var(--bubble-font);
-	font-size: var(--title-fontsize);
+	font-size: var(--fontsize-3);
 	text-align: center;
 }
 

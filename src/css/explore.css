@@ -1,7 +1,11 @@
+img {
+	width: 100%;
+}
+
 .explore h3 {
 	padding-block: var(--padding-2);
 	margin: var(--no-margin);
-	font-size: var(--title-fontsize);
+	font-size: var(--fontsize-3);
 	font-family: var(--bubble-font);
 	font-weight: var(--bold-font);
 	text-align: center;
@@ -15,6 +19,7 @@
 .explore-kids img {
 	max-width: 50rem;
 	height: auto;
+	border-radius: 2rem;
 }
 
 .explore-kids-msg {
@@ -41,6 +46,7 @@
 .explore-teachers img,
 .explore-research img {
 	max-width: 25rem;
+	border-radius: 0.5rem;
 }
 
 .explore-teachers-msg,
@@ -91,4 +97,8 @@
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
+}
+
+h3 {
+	font-size: var(--fontsize-3);
 }
