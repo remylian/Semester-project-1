@@ -1,15 +1,17 @@
 header h2 {
 	margin: 0;
 	color: var(--main-clr);
+	font-size: 3rem;
 }
 
 .header-title-1 {
 	text-align: center;
+	padding-block: 1rem;
 	padding-left: 3rem;
 }
 
 .img-wrapper img {
-	width: 400px;
+	max-width: 25rem;
 }
 .title-wrapper {
 	display: flex;

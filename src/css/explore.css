@@ -1,0 +1,94 @@
+.explore h3 {
+	padding-block: var(--padding-2);
+	margin: var(--no-margin);
+	font-size: var(--title-fontsize);
+	font-family: var(--bubble-font);
+	font-weight: var(--bold-font);
+	text-align: center;
+}
+
+.explore-kids {
+	display: flex;
+	justify-content: center;
+}
+
+.explore-kids img {
+	max-width: 50rem;
+	height: auto;
+}
+
+.explore-kids-msg {
+	max-width: 50rem;
+	margin: 0 auto;
+	border-bottom: 2px solid var(--main-clr);
+	font-size: 1.25rem;
+	text-align: left;
+}
+
+.explore-kids-buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.explore-teachers {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	padding: var(--padding-2);
+	padding-bottom: var(--padding-2);
+}
+
+.explore-teachers img,
+.explore-research img {
+	max-width: 25rem;
+}
+
+.explore-teachers-msg,
+.explore-research-msg {
+	max-width: 25rem;
+	font-size: 1.25rem;
+}
+
+.explore-teachers-msg p,
+.explore-research-msg p {
+	margin: var(--no-margin);
+}
+
+.explore-teachers-buttons,
+.explore-research-button,
+.explore-kids-buttons {
+	padding-block: var(--padding-2);
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid var(--main-clr);
+}
+
+.explore-teachers-button,
+.explore-research-button-1,
+.explore-kids-button {
+	padding: 1rem;
+	transition: 0.3s;
+	background-color: var(--secondary-clr);
+	border: var(--grey-border);
+	border-radius: 0.25rem;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.explore-kids-button:hover,
+.explore-teachers-button:hover,
+.explore-research-button-1:hover {
+	box-shadow: 3px 3px 3px var(--main-clr);
+	transition: 0.3s;
+	background-color: var(--white-clr);
+	border: var(--black-border);
+	color: var(--secondary-clr);
+}
+
+.explore-research {
+	padding-block: var(--padding-2);
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}

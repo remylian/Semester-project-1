@@ -1,16 +1,26 @@
 :root {
-	--border-rad-full: 1rem;
+	--border-rad-full: 0.25rem;
+
+	--black-border: 1px solid black;
+	--grey-border: 0.3px solid grey;
 	--text-border: 2px solid #568bb5;
+
+	--button-shadow: 3px 3px 3px var(--main-clr);
 
 	--nav-pad: 0 0.5rem;
 
-	--title-fontsize: 2rem;
+	--fontsize-2: 2rem;
+	--fontsize-3: 3rem;
 
 	--no-margin: 0;
+	--padding-2: 2rem;
 
 	--main-clr: #568bb5;
 	--secondary-clr: #18a78d;
+	--white-clr: white;
 
 	--bubble-font: 'fuzzy bubbles';
 	--bold-font: bold;
+
+	--text-decor-none: none;
 }

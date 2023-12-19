@@ -46,9 +46,10 @@
 			<form action="" method="post">
 				<div class="contact-form">
 					<fieldset aria-labelledby="userInfo">
-						<h2 id="userInfo">overskrift</h2>
+						<legend></legend>
+						<h2 id="userInfo">Share your Details</h2>
 
-						<div class="wrapper">
+						<div class="wrapper firstname">
 							<label for="firstname">First Name</label>
 							<input
 								class="input-info"
@@ -59,7 +60,7 @@
 								required />
 						</div>
 
-						<div class="wrapper">
+						<div class="wrapper lastname">
 							<label for="lastname">Last Name</label>
 							<input
 								class="input-info"
@@ -70,7 +71,7 @@
 								required />
 						</div>
 
-						<div class="wrapper">
+						<div class="wrapper email">
 							<label for="email">email</label>
 							<input
 								class="input-info"
@@ -81,12 +82,12 @@
 								required />
 						</div>
 
-						<div class="wrapper">
+						<div class="wrapper phone">
 							<label for="phone">Phone nr. (optional)</label>
 							<input class="input-info" type="tel" id="phone" placeholder="Phone nr. (optional)" />
 						</div>
 
-						<div class="wrapper">
+						<div class="wrapper subject">
 							<label for="subject">subject of message</label>
 							<select class="input-info" name="subject" id="subject">
 								<option value=" - ">-</option>
@@ -101,7 +102,8 @@
 					</fieldset>
 
 					<fieldset aria-labelledby="messageInfo">
-						<h2 id="messageInfo">overskrift</h2>
+						<legend></legend>
+						<h2 id="messageInfo">Share your words</h2>
 
 						<div class="wrapper">
 							<label for="message">Your message</label>
