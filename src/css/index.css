@@ -1,20 +1,20 @@
-.hero-banner {
+.video-banner {
 	display: flex;
 	justify-content: center;
 	background-color: black;
 }
 
 .welcome-txt h2 {
-	font-family: var(--bubble-font);
 	font-size: var(--fontsize-3);
+	font-family: var(--bubble-font);
 	text-align: center;
 }
 
 .welcome-msg {
+	padding-block: var(--padding-2);
 	display: flex;
 	justify-content: center;
-	font-size: 1.25rem;
-	padding-block: var(--padding-2);
+	font-size: 1.5rem;
 }
 
 .xplorebtn {
@@ -25,43 +25,65 @@
 }
 
 .xplorebtn-1 {
-	padding: 1rem 3rem;
-	font-size: 1.25rem;
-	font-weight: var(--bold-font);
-	background-color: var(--secondary-clr);
-	color: var(--white-clr);
-	border: var(--grey-border);
-	border-radius: var(--border-rad-full);
+	width: 25%;
+	padding-block: 2rem;
+	text-align: center;
+	font-size: var(--fontsize-2);
 	transition: 0.3s;
+	background-color: var(--secondary-clr);
+	border: 1px solid grey;
+	border-radius: var(--border-rad-full);
+	font-size: var(--fontsize-3);
+	font-weight: var(--bold-font);
+	color: var(--white-clr);
 	text-decoration: none;
 }
 
 .xplorebtn-1:hover {
-	background-color: var(--white-clr);
-	color: var(--secondary-clr);
-	border: var(--black-border);
 	box-shadow: 3px 3px 3px var(--main-clr);
 	transition: 0.3s;
+	background-color: var(--white-clr);
+	border: var(--black-border);
+	color: var(--secondary-clr);
 }
 
 .info-main {
-	text-align: center;
 	padding-block: 3rem;
+	text-align: center;
 }
 
+.info-title h2 {
+	font-size: 6rem;
+	text-align: left;
+	padding-left: 1.5rem;
+	color: var(--white-clr);
+}
+
+.info-title {
+	/* border: 2px solid black; */
+	margin: 0 auto;
+	z-index: -1;
+	max-width: 50%;
+	/* height: auto; */
+	background-size: cover;
+	background-image: url(/assets/images/home/banner-contact.png);
+	background-repeat: no-repeat;
+	border-radius: 0.5rem;
+}
 .info-categories {
+	padding-block: 3rem;
 	display: grid;
-	grid-template-columns: repeat(4, 20%);
 	justify-content: space-evenly;
 	gap: 2rem;
-	padding-block: 3rem;
+	grid-template-columns: repeat(2, 25%);
+	/* flex-wrap: wrap; */
 }
 
 .category-wrapper {
-	background: lightgrey;
-	border: 2px solid black;
-	gap: 2rem;
 	padding-block: var(--padding-2);
+	gap: 2rem;
+	background-color: ##d8e1e9;
+	border: 2px solid black;
 }
 
 .category-wrapper p {
@@ -69,14 +91,14 @@
 }
 
 .info-tour-button {
-	background-color: var(--secondary-clr);
 	padding: 1rem;
+	transition: 0.3s;
+	background-color: var(--secondary-clr);
 	border: var(--black-border);
 	border-radius: var(--border-rad-full);
-	color: var(--white-clr);
 	font-weight: var(--bold-font);
+	color: var(--white-clr);
 	text-decoration: none;
-	transition: 0.3s;
 }
 
 .info-tour-button:hover {
