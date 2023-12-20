@@ -1,0 +1,47 @@
+.banner {
+	width: 50%;
+	height: auto;
+}
+
+.exhibition-welcome {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: 2px solid var(--main-clr);
+	max-width: 40%;
+}
+
+.exhibition-welcome p {
+	font-size: 1.25rem;
+}
+
+.exhibition-items {
+	padding-block: 8rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.exhibition-item {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.exhibition-item img {
+	max-width: 15%;
+	border-radius: 0.25rem;
+}
+
+.wrapper-text {
+	max-width: 25%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-bottom: 2px solid var(--main-clr);
+}
+
+h3 {
+	margin: 0;
+}

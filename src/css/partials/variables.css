@@ -5,15 +5,13 @@
 	--grey-border: 0.3px solid grey;
 	--text-border: 2px solid #568bb5;
 
-	--button-shadow: 3px 3px 3px var(--main-clr);
-
 	--nav-pad: 0 0.5rem;
 
 	--fontsize-2: 2rem;
 	--fontsize-3: 3rem;
 
 	--no-margin: 0;
-	--padding-2: 2rem;
+	--spacer-2: 2rem;
 
 	--main-clr: #568bb5;
 	--secondary-clr: #18a78d;
