@@ -2,6 +2,54 @@ img {
 	width: 100%;
 }
 
+.title {
+	font-size: var(--fontsize-3);
+	text-align: center;
+}
+
 ul {
 	color: black;
+	padding-block: 5rem;
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 25%);
+}
+
+.contribute-support,
+.contribute-volunteer,
+.contribute-intern {
+	padding-block: 1rem;
+	box-shadow: 3px 3px 3px grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: var(--box-background);
+	border-radius: var(--border-rad-full);
+}
+
+.contribute-support p,
+.contribute-volunteer p,
+.contribute-intern p {
+	padding: 0.5rem 1rem;
+}
+
+.contribute-support a,
+.contribute-volunteer a,
+.contribute-intern a {
+	padding: 1rem 2rem;
+	background-color: var(--secondary-clr);
+	border: var(--grey-border);
+	border-radius: var(--border-rad-full);
+	color: var(--white-clr);
+	text-decoration: none;
+}
+
+.contribute-support a:hover,
+.contribute-volunteer a:hover,
+.contribute-intern a:hover {
+	box-shadow: 3px 3px 3px var(--main-clr);
+	transition: 0.3s;
+	background-color: var(--white-clr);
+	border: var(--black-border);
+	color: var(--secondary-clr);
 }

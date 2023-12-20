@@ -9,7 +9,7 @@
 	max-width: 50%;
 	margin: 0 auto;
 	padding: 1rem 3rem;
-	background-color: rgb(216, 225, 233);
+	background-color: ;
 	border: 0.1rem solid var(--main-clr);
 	border-radius: 1rem;
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu;
@@ -44,7 +44,7 @@
 	box-shadow: 3px 3px 3px var(--main-clr);
 	transition: 0.3s;
 	background-color: var(--white-clr);
-	font-weight: ;
+	/* font-weight: ; */
 	color: var(--main-clr);
 }
 

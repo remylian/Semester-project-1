@@ -4,11 +4,16 @@ footer {
 }
 
 ul {
-	color: white;
+	/* color: white; */
 	margin: var(--nomargin);
 }
 
+.address {
+	font-style: normal;
+}
+
 .footer-items {
+	color: white;
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
