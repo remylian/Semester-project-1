@@ -1,4 +1,4 @@
-.nav-home .video-banner {
+.video-banner {
 	display: flex;
 	justify-content: center;
 	background-color: black;
@@ -25,17 +25,16 @@
 }
 
 .xplorebtn-1 {
-	width: 25%;
 	padding-block: 2rem;
-	text-align: center;
-	font-size: var(--fontsize-2);
+	width: 25%;
 	transition: 0.3s;
 	background-color: var(--secondary-clr);
 	border: 1px solid grey;
 	border-radius: var(--border-rad-full);
-	font-size: var(--fontsize-3);
+	font-size: var(--fontsize-2);
 	font-weight: var(--bold-font);
 	color: var(--white-clr);
+	text-align: center;
 	text-decoration: none;
 }
 
@@ -53,21 +52,19 @@
 }
 
 .info-title h2 {
-	font-size: 6rem;
-	text-align: left;
 	padding-left: 1.5rem;
+	font-size: 6rem;
 	color: var(--white-clr);
+	text-align: left;
 }
 
 .info-title {
-	/* border: 2px solid black; */
-	margin: 0 auto;
 	z-index: -1;
 	max-width: 50%;
-	/* height: auto; */
-	background-size: cover;
+	margin: 0 auto;
 	background-image: url(/assets/images/home/banner-contact.png);
 	background-repeat: no-repeat;
+	background-size: cover;
 	border-radius: 0.5rem;
 }
 .info-categories {
@@ -75,8 +72,7 @@
 	display: grid;
 	justify-content: space-evenly;
 	gap: 2rem;
-	grid-template-columns: repeat(2, 25%);
-	/* flex-wrap: wrap; */
+	grid-template-columns: repeat(4, 20%);
 }
 
 .category-wrapper {
@@ -88,6 +84,7 @@
 
 .category-wrapper p {
 	text-align: left;
+	padding: 0 1rem;
 }
 
 .info-tour-button {
@@ -106,4 +103,132 @@
 	background-color: var(--white-clr);
 	border: var(--black-border);
 	color: var(--secondary-clr);
+}
+
+.events {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.news {
+	list-style: none;
+	width: 50%;
+}
+
+.news h4 {
+	font-size: 2rem;
+	margin: 0;
+	text-decoration: underline;
+}
+
+.news p {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.news li {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.news-item {
+	padding-block: 1rem;
+	border-bottom: 2px solid var(--main-clr);
+}
+
+.news-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+/* CSS for the exhibition animation */
+
+.-carousel-container {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+
+.item-1,
+.item-2,
+.item-3 {
+	position: absolute;
+	width: 50%;
+	height: auto;
+
+	animation-duration: 10s;
+	animation-timing-function: ease-in;
+	animation-iteration-count: infinite;
+}
+
+.item-1 {
+	animation-name: anim-1;
+	background-color: blue;
+}
+
+.item-2 {
+	background-color: red;
+	animation-name: anim-2;
+}
+
+.item-3 {
+	background-color: green;
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%,
+	8.3% {
+		left: 0%;
+		opacity: 0;
+	}
+	8.3%,
+	25% {
+		left: 0%;
+		opacity: 1;
+	}
+	33.33%,
+	100% {
+		left: 0%;
+		opacity: 0;
+	}
+}
+
+@keyframes anim-2 {
+	0%,
+	33.33% {
+		left: 0%;
+		opacity: 0;
+	}
+	41.63%,
+	58.29% {
+		left: 0%;
+		opacity: 1;
+	}
+	66.66%,
+	100% {
+		left: 0%;
+		opacity: 0;
+	}
+}
+
+@keyframes anim-3 {
+	0%,
+	66.66% {
+		left: 0%;
+		opacity: 0;
+	}
+	74.96%,
+	91.62% {
+		left: 0%;
+		opacity: 1;
+	}
+	100% {
+		left: 0%;
+		opacity: 0;
+	}
 }
