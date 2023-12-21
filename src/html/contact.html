@@ -90,12 +90,13 @@
 						<div class="wrapper subject">
 							<label for="subject">subject of message</label>
 							<select class="input-info" name="subject" id="subject">
-								<option value=" - ">-</option>
+								<option value="select message subject ">Select message subject</option>
 								<option value="teacher">I am a teacher</option>
 								<option value="support">I want to support/Donate</option>
 								<option value="internship">Internship</option>
 								<option value="volunteer">I want to volunteer</option>
 								<option value="tour">Guided Tour</option>
+								<option value="oliver">i want to see Oliver's chickens</option>
 								<option value="other">Other questions</option>
 							</select>
 						</div>
@@ -115,70 +116,80 @@
 								cols="30"
 								rows="10"></textarea>
 						</div>
+						<button>Submit your message</button>
 					</fieldset>
 				</div>
 			</form>
 
-			<!-- separator -->
-			<div>
-				<h2>LOCATION</h2>
-				<address>Adventure Island 42</address>
-				<address>1337 Awesometown</address>
-				<address>Leetland</address>
+			<section class="visit">
+				<h2 class="visit-title">You are very welcome to visit</h2>
+				<div class="visit-grid">
+					<div class="visit-location">
+						<h2>LOCATION</h2>
 
-				<p>PHONE: +47 123 45 678</p>
-			</div>
+						<address>
+							Adventure Island 42 <br />
+							1337 Awesometown <br />
+							Leetland
+						</address>
 
-			<div>
-				<h2>OPENING HOURS</h2>
-				<div>
-					<table>
-						<tr>
-							<td>MONDAY</td>
-							<td>CLOSED</td>
-						</tr>
+						<p>PHONE: +47 123 45 678</p>
+					</div>
 
-						<tr>
-							<td>TUESDAY</td>
-							<td>10:00 - 1600</td>
-						</tr>
+					<div visit-hours>
+						<h2>OPENING HOURS</h2>
+						<div>
+							<table>
+								<tr>
+									<td>MONDAY</td>
+									<td>CLOSED</td>
+								</tr>
 
-						<tr>
-							<td>WEDNESDAY</td>
-							<td>10:00 - 16:00</td>
-						</tr>
+								<tr>
+									<td>TUESDAY</td>
+									<td>10:00 - 1600</td>
+								</tr>
 
-						<tr>
-							<td>THURSDAY</td>
-							<td>10:00 - 16:00</td>
-						</tr>
+								<tr>
+									<td>WEDNESDAY</td>
+									<td>10:00 - 16:00</td>
+								</tr>
 
-						<tr>
-							<td>FRIDAY</td>
-							<td>10:00 - 19:00</td>
-						</tr>
+								<tr>
+									<td>THURSDAY</td>
+									<td>10:00 - 16:00</td>
+								</tr>
 
-						<tr>
-							<td>SATURDAY</td>
-							<td>9:00 - 16:00</td>
-						</tr>
+								<tr>
+									<td>FRIDAY</td>
+									<td>10:00 - 19:00</td>
+								</tr>
 
-						<tr>
-							<td>SUNDAY</td>
-							<td>9:00 - 13:00</td>
-						</tr>
-					</table>
+								<tr>
+									<td>SATURDAY</td>
+									<td>9:00 - 16:00</td>
+								</tr>
+
+								<tr>
+									<td>SUNDAY</td>
+									<td>9:00 - 13:00</td>
+								</tr>
+							</table>
+						</div>
+					</div>
 				</div>
-			</div>
+			</section>
 		</main>
 
 		<footer>
 			<ul class="footer-items">
 				<li>
-					<h3>Adress</h3>
-					<address>Community Science Museum</address>
-					<address>Bigbrainstreet 42</address>
-					<address>1337 Leetland</address>
+					<h3>ADDRESS</h3>
+					<address>
+						Community Science Museum <br />
+						Bigbrainstreet 42 <br />
+						1337 Leetland
+					</address>
 				</li>
 
 				<li>
@@ -223,24 +234,18 @@
 
 				<li class="footer-legal">
 					<h3>LEGAL</h3>
-					<a href="#">PRIVACY POLICY</a>
-					<a href="#">TERMS & CONDITIONS</a>
+					<a href="/src/html/document.html">PRIVACY POLICY</a>
+					<a href="/src/html/document-2.html">TERMS & CONDITIONS</a>
 				</li>
 
-				<li>
+				<li class="socialmedia">
 					<h3>SHARE THE FUN!</h3>
 
-					<ul class="socialmedia-icons">
-						<li>
-							<a href="#"><img src="/assets/images/icons/insta-icon.svg" alt="" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="/assets/images/icons/fb-icon.svg" alt="" /></a>
-						</li>
-						<li>
-							<a href="#"><img src="/assets/images/icons/twitter-icon.svg" alt="" /></a>
-						</li>
-					</ul>
+					<div class="socialmedia-icons">
+						<a href="#"><img src="/assets/images/icons/insta-icon.svg" alt="" /></a>
+						<a href="#"><img src="/assets/images/icons/fb-icon.svg" alt="" /></a>
+						<a href="#"><img src="/assets/images/icons/twitter-icon.svg" alt="" /></a>
+					</div>
 				</li>
 			</ul>
 		</footer>

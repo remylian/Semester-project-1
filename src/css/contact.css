@@ -1,1 +1,84 @@
+.contact-form {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(2, 1fr);
+	max-width: 50%;
+	margin: 0 auto;
+	padding: 2rem;
+	background-color: var(--box-background);
+	border-radius: var(--border-rad-full);
+}
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.input-info,
+.textarea-box {
+	margin-top: 0.7rem;
+	padding: 0.5rem;
+	border: 1px solid var(--grey-clr);
+	border-radius: 0.25rem;
+}
+
+.contact-form h2 {
+	text-align: center;
+}
+
+fieldset {
+	padding: 0;
+	border: none;
+}
+
+legend {
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+label {
+	display: none;
+}
+
+/* the button is a dummy, but semanticly it should be here */
+
+button {
+	margin-top: 1rem;
+	padding: 1rem 2rem;
+	transition: 0.3s;
+	background-color: var(--secondary-clr);
+	border: 1px solid var(--grey-clr);
+	border-radius: var(--border-rad-full);
+	font-size: 1.25rem;
+	font-family: var(--bubble-font);
+	font-weight: var(--bold-font);
+	color: var(--white-clr);
+}
+
+button:hover {
+	box-shadow: 3px 3px 3px var(--main-clr);
+	transition: 0.3s;
+	background-color: var(--white-clr);
+	color: var(--secondary-clr);
+}
+
+.visit-title {
+	text-align: center;
+	margin-top: 3rem;
+}
+
+.visit-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3rem;
+	max-width: 50%;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.visit-location,
+.visit-hours {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
