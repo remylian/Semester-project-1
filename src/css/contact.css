@@ -40,7 +40,7 @@ label {
 	display: none;
 }
 
-/* the button is a dummy, but semanticly it should be here */
+/* the button is a dummy, but semantically it should be here */
 
 button {
 	margin-top: 1rem;
@@ -73,12 +73,20 @@ button:hover {
 	gap: 3rem;
 	max-width: 50%;
 	margin: 0 auto;
-	padding: 2rem;
+	padding-block: 2rem;
 }
 
-.visit-location,
 .visit-hours {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border: 2px solid var(--main-clr);
+}
+
+.visit-location {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+	border: 2px solid var(--main-clr);
 }
