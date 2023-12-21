@@ -16,6 +16,12 @@
 	font-size: 1.25rem;
 }
 
+.exhibition-title {
+	text-align: center;
+	padding-top: 4rem;
+	font-size: var(--fontsize-2);
+}
+
 .exhibition-items {
 	padding-block: 8rem;
 	display: flex;
