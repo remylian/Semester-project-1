@@ -32,13 +32,6 @@ h3 {
 	font-size: 1.5rem;
 }
 
-.xplorebtn {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding-bottom: var(--padding-2);
-}
-
 .info-main {
 	padding-block: 3rem;
 	text-align: center;
@@ -96,7 +89,6 @@ h3 {
 
 
 .info-tour-button a {
-	/* width: 80%; */
 	margin: var(--margin-centered);
 	padding: 1rem;
 	transition: 0.3s;
@@ -133,7 +125,6 @@ h3 {
 }
 
 .news p {
-	/* margin: 0; */
 	font-size: 1.25rem;
 }
 
@@ -144,7 +135,7 @@ h3 {
 
 .news-item {
 	padding-block: 1rem;
-	/* border-bottom: 2px solid var(--main-clr); */
+
 }
 
 .news-text {
