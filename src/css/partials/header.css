@@ -1,20 +1,24 @@
-h1 p {
+/* h1 p {
 	color: var(--main-clr);
 	font-size: var(--fontsize-2);
 	margin: 0;
-}
+} */
 
-.header-title-1 {
+/* .header-title-1 {
 	text-align: center;
 	padding-block: 1rem;
+} */
+
+.header-wrapper-1{
+	text-align: center;
 }
 
-.title-wrapper {
+/* .title-wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 3rem;
-}
+} */
 
 .nav-main {
 	padding-block: 1rem;

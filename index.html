@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="description" content="welcome to CSM!" />
+		<meta name="description" content="welcome to the community science museum, where we explore together!" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>CSM - home</title>
@@ -16,26 +16,17 @@
 
 	<body>
 		<header>
-			<section class="header-title">
-				<h1>
-				<p class="header-title-1">COMMUNITY</p>
 
-				<div class="title-wrapper">
-					<p>SCIENCE</p>
-					<div class="wrapper">
-						<a href="/index.html">
-							<img src="/assets/images/icons/logo-final.svg" alt="the museum logo" />
-						</a>
-					</div>
-					<p>MUSEUM</p>
-				</div>
-			</h1>
-			</section>
+			<div class="header-wrapper-1">
+			<a href="/index.html"><img src="/assets/images/icons/logo-final.svg" alt="the museum logo"></a>
+
+			<h1 class="header-title">COMMUNITY SCIENCE MUSEUM</h1>
+		</div>
 
 			<nav class="nav-main">
-				<a href="/src/html/explore.html" class="nav-item nav-explore">EXPLORE</a>
-				<a href="/src/html/contact.html" class="nav-item nav-contact">CONTACT</a>
 				<a href="/index.html" class="nav-item nav-home">HOME</a>
+				<a href="/src/html/contact.html" class="nav-item nav-contact">CONTACT</a>
+				<a href="/src/html/explore.html" class="nav-item nav-explore">EXPLORE</a>
 				<a href="/src/html/exhibitions.html" class="nav-item nav-exhibit">EXHIBITION</a>
 				<a href="/src/html/contribution.html" class="nav-item nav-contribute">GET INVOLVED</a>
 			</nav>
@@ -44,8 +35,8 @@
 		<main>
 			<div class="video-banner">
 				<iframe
-					width="1268"
-					height="713"
+					width="840"
+					height="420"
 					src="https://www.youtube.com/embed/UjEngEpiJKo?autoplay=1&mute=1&loop=1&playlist=UjEngEpiJKo""
 					title="CURIOSITY - Featuring Richard Feynman"
 					frameborder="0"
@@ -68,23 +59,22 @@
 					</p>
 				</div>
 
-				<div class="xplorebtn">
+				<!-- <div class="xplorebtn">
 					<a class="xplorebtn-1" href="/src/html/explore.html">Explore</a>
-				</div>
+				</div> -->
 			</section>
 
 			<section class="info-main">
-				
+
+				<div class="admission">
+					<p>Admission is free for all</p>
+				</div>
 			
 				
 				
 				<div class="info-categories">
 					
 					<div class="category-wrapper">
-						<h3 class="info-subcat">ADMISSION</h3>						
-						<div class="info-admission">
-							<p>Admission is free for all.</p>
-							<img src="/assets/images/home/admission.jpg" alt="a boardsign reading 'come in, we're open'">
 							<p>
 								<div class="info-tours">
 									<h3 class="info-subcat">TOURS</h3>
@@ -98,15 +88,17 @@
 								</p>
 
 								</div>
-
-							<a class="info-tour-button" href="/src/html/contact.html">Book your tour now</a>
+								<div class="info-tour-button">
+							<a  href="/src/html/contact.html">Book your tour now</a>
 						</div>
 					</div>
-
+<!-- husk å endre navn på category wrapper -->
+<!-- husk å fikse tour-button -->
+<!-- husk å fikse image-fit -->
 					<div class="category-wrapper">
 						<h3>Accessibility</h3>
 						<div class="info-access">
-							<img src="/assets/images/home/accessability.png" alt="image of a" />
+							<img src="/assets/images/home/accessability.png" alt="" />
 							<p>
 								The museum has wheelchair accessibility ramps. It also has audio guides and braille
 								display signs for the visually impaired.
@@ -140,40 +132,43 @@
 			</section>
 
 			<section class="events">
-
+<!-- husk avstanden her -->
 				<h2>SPECIAL EVENTS AND EXHIBITIONS</h2>
+
+				<!-- <h2>News!</h2> -->
 				
-				<h3>NEWS</h3>
 				
 				<ul class="news">
 					<li class="news-item">
 						<div class="news-aeronautics">
+							<!-- <div class="news-img-wrapper"></div> -->
 							<img src="/assets/images/home/aeronautics.jpg" alt="">
 						
 						</div>
 						<div class="news-text">
-						<h4>Visiting Professor of Aeronautics!</h4>
+						<h3>Visiting Professor of Aeronautics!</h3>
 						<p>It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting 'space'.</p>
 						</div>
 					</li>
 
 					<li class="news-item">
 						<div class="news-night">
+							<!-- <div class="news-img-wrapper"></div> -->
 							<img src="/assets/images/home/night-at-museum.jpg" alt="">
 						</div>
 						<div class="news-text">
-							<h4>Night in the Museum!</h4>
+							<h3>Night in the Museum!</h3>
 							<p>Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
 						</div>
 					</li>
 
 					<li class="news-item">
 						<div class="news-loan">
-							
+							<!-- <div class="news-img-wrapper"></div> -->
 								<img src="/assets/images/home/energetica.jpg" alt="">
 							</div>
 							<div class="news-text">
-							<h4>Energetica Exhibition on Loan</h4>
+							<h3>Energetica Exhibition on Loan</h3>
 
 							<p>On loan from the NEMO Science Museum in Amsterdam, the Energetica exhibition is coming to the Community Science Museum. It's a series of installations that allow visitors to experience the power of the elements as we harness them. From solar energy powering lighting, to 'Wind Island' that shows how turbines are able to use and control wind to create power.</p>
 						</div>
@@ -254,10 +249,10 @@
 					<a href="/src/html/document-2.html">TERMS & CONDITIONS</a>
 				</li>
 
-				<li class="socialmedia">
+				<li class="footer-socialmedia">
 					<h3>SHARE THE FUN!</h3>
 
-					<div class="socialmedia-icons">
+					<div class="footer-socialmedia-icons">
 						<a href="#"><img src="/assets/images/icons/insta-icon.svg" alt="" /></a>
 						<a href="#"><img src="/assets/images/icons/fb-icon.svg" alt="" /></a>
 						<a href="#"><img src="/assets/images/icons/twitter-icon.svg" alt="" /></a>
