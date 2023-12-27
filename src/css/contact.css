@@ -4,7 +4,7 @@
 	grid-template-columns: repeat(2, 1fr);
 	max-width: 50%;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: var(--padding-2);
 	background-color: var(--box-background);
 	border-radius: var(--border-rad-full);
 }
@@ -49,7 +49,7 @@ button {
 	background-color: var(--secondary-clr);
 	border: 1px solid var(--grey-clr);
 	border-radius: var(--border-rad-full);
-	font-size: 1.25rem;
+	font-size: var(--fontsize-1);
 	font-family: var(--bubble-font);
 	font-weight: var(--bold-font);
 	color: var(--white-clr);
@@ -73,7 +73,7 @@ button:hover {
 	gap: 3rem;
 	max-width: 50%;
 	margin: 0 auto;
-	padding-block: 2rem;
+	padding-block: var(--padding-2);
 }
 
 .visit-hours {

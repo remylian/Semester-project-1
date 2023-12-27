@@ -13,7 +13,7 @@
 }
 
 .exhibition-welcome p {
-	font-size: 1.25rem;
+	font-size: var(--fontsize-1);
 }
 
 .exhibition-title {

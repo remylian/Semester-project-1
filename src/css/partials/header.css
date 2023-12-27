@@ -25,7 +25,7 @@ h1 p {
 }
 
 .nav-item {
-	font-size: 1.25rem;
+	font-size: var(--fontsize-1);
 	transition: color 0.3s ease;
 	position: relative;
 	font-family: var(--bubble-font);
@@ -52,4 +52,8 @@ h1 p {
 
 .nav-item:hover::after {
 	width: 100%;
+}
+
+.nav-item.active::after {
+	text-decoration: underline;
 }
