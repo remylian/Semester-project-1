@@ -1,3 +1,6 @@
+/* HUSK VARIABLES! */
+
+
 h1 {
 	font-size: var(--fontsize-3);
 	margin: var(--no-margin);
@@ -44,7 +47,7 @@ h3 {
 .admission{
 	border-radius: var(--border-rad-full);
 	border: 3px solid black;
-	margin: 0	auto;
+	margin: var(--margin-centered);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -65,7 +68,7 @@ h3 {
 .info-title {
 	z-index: -1;
 	max-width: 50%;
-	margin: 0 auto;
+	margin: var(--margin-centered);
 	background-image: url(/assets/images/home/banner-contact.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -94,7 +97,7 @@ h3 {
 
 .info-tour-button a {
 	/* width: 80%; */
-	margin: 0 auto;
+	margin: var(--margin-centered);
 	padding: 1rem;
 	transition: 0.3s;
 	background-color: var(--secondary-clr);
