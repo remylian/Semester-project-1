@@ -53,7 +53,6 @@ h3 {
 
 .info-admission {
 	border-radius: var(--border-rad-full);
-	border: 2px solid black;
 	margin: var(--margin-centered);
 	display: flex;
 	justify-content: center;
@@ -71,6 +70,7 @@ h3 {
 	gap: 2rem;
 	max-width: 90%;
 	margin: auto;
+	font-size: 1.2rem;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
@@ -82,11 +82,11 @@ h3 {
 	object-fit: contain;
 }
 
+
 .category-wrapper {
 	padding-block: var(--spacer-1);
 	gap: 2rem;
 	background-color: var(--box-background);
-	border: 2px solid black;
 	border-radius: var(--border-rad-full);
 	box-shadow: 3px 3px 3px var(--main-clr);
 }
@@ -123,10 +123,6 @@ h3 {
 	justify-content: center;
 }
 
-/* .exhib {
-	margin-top: 0;
-} */
-
 .events-main {
 	list-style: none;
 	width: 50%;
@@ -142,7 +138,7 @@ h3 {
 }
 
 .events p {
-	margin: 0;
+	margin: var(--no-margin);
 	font-size: var(--fontsize-1);
 }
 
@@ -178,7 +174,7 @@ h3 {
 	box-shadow: 3px 3px 3px var(--main-clr);
 	transition: 0.3s;
 	background-color: var(--white-clr);
-	border: var(--black-border);
+	border: var(--grey-border);
 	color: var(--secondary-clr);
 }
 
