@@ -8,6 +8,7 @@ h1 {
 
 h2 {
 	font-size: var(--fontsize-2);
+	margin:var(--no-margin);
 }
 
 h3 {
@@ -19,7 +20,13 @@ h3 {
 	display: flex;
 	justify-content: center;
 	background-color: black;
+	
 }
+
+.video-banner iframe{
+	border:none;
+
+	}
 
 .welcome-txt {
 	text-align: left;
@@ -124,8 +131,11 @@ h3 {
 }
 
 .events-main {
+	display: flex;
+	flex-direction: column;
+	gap:;
 	list-style: none;
-	width: 50%;
+	max-width: 50%;
 }
 
 .events h2 {
@@ -143,6 +153,7 @@ h3 {
 }
 
 .events li {
+
 	display: flex;
 	gap: 0.5rem;
 }
@@ -180,7 +191,7 @@ h3 {
 
 .events-exhibitions {
 	margin-bottom: 2rem;
-	padding: 1rem;
+	padding: 2rem 1rem;
 	background-color: var(--box-background);
 	display: flex;
 	flex-direction: column;
