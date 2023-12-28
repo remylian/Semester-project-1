@@ -1,11 +1,13 @@
 /* img {
 	width: 100%;
 } */
-
-.explore h3 {
+p {
+	margin: var(--spacer-1);
+}
+.explore h2 {
 	padding-block: var(--padding-2);
 	margin: var(--no-margin);
-	font-size: var(--fontsize-3);
+	font-size: var(--fontsize-2);
 	font-family: var(--bubble-font);
 	font-weight: var(--bold-font);
 	text-align: center;
@@ -55,10 +57,10 @@
 	font-size: var(--fontsize-1);
 }
 
-.explore-teachers-msg p,
+/* .explore-teachers-msg p,
 .explore-research-msg p {
 	margin: var(--no-margin);
-}
+} */
 
 .explore-teachers-buttons,
 .explore-research-button,

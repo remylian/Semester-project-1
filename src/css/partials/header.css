@@ -1,24 +1,7 @@
-/* h1 p {
-	color: var(--main-clr);
-	font-size: var(--fontsize-2);
-	margin: 0;
-} */
-
-/* .header-title-1 {
+.header-wrapper {
 	text-align: center;
-	padding-block: 1rem;
-} */
-
-.header-wrapper-1{
-	text-align: center;
+	margin-top: var(--spacer-1);
 }
-
-/* .title-wrapper {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	gap: 3rem;
-} */
 
 .nav-main {
 	padding-block: 1rem;
@@ -26,6 +9,10 @@
 	display: flex;
 	justify-content: center;
 	gap: 6rem;
+}
+
+.nav-hamburger {
+	display: none;
 }
 
 .nav-item {
@@ -37,6 +24,19 @@
 	color: white;
 	text-decoration: none;
 }
+
+/* til mediaquery: */
+
+/* .nav-mobile {
+	display: flex;
+	position: absolute;
+	flex-direction: column;
+	background-color: var(--main-clr);
+
+	align-self: end;
+	justify-content: center;
+	border: var(--black-border);
+} */
 
 .nav-item::after {
 	content: '';
