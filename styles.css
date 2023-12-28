@@ -14,7 +14,7 @@ body {
 	box-shadow: 3px 3px 3px var(--main-clr);
 	transition: 0.3s;
 	background-color: var(--white-clr);
-	border: var(--grey-border);
+	border: var(--black-border);
 	color: var(--secondary-clr);
 }
 
