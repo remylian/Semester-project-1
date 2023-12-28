@@ -25,3 +25,7 @@ body {
 address {
 	font-style: normal;
 }
+
+p {
+	margin: var(--no-margin);
+}
