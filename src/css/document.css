@@ -30,8 +30,8 @@
 .terms-btn {
 	padding: 1rem 2rem;
 	transition: 0.3s;
-	background-color: var(--main-clr);
-	border: 1px solid black;
+	background-color: var(--secondary-clr);
+	border: var(--black-border);
 	border-radius: 0.5rem;
 	font-weight: var(--bold-font);
 	color: var(--white-clr);
@@ -44,7 +44,7 @@
 	transition: 0.3s;
 	background-color: var(--white-clr);
 	/* font-weight: ; */
-	color: var(--main-clr);
+	color: var(--secondary-clr);
 }
 
 li {

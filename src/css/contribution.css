@@ -22,6 +22,8 @@ ul {
 	box-shadow: 3px 3px 3px grey;
 	display: flex;
 	flex-direction: column;
+	justify-content: space-around;
+	gap: 1rem;
 	align-items: center;
 	background-color: var(--box-background);
 	border-radius: var(--border-rad-full);
@@ -31,17 +33,22 @@ ul {
 .contribute-volunteer p,
 .contribute-intern p {
 	padding: 0.5rem 1rem;
+	width: 80%;
 }
 
 .contribute-support a,
 .contribute-volunteer a,
 .contribute-intern a {
 	padding: 1rem 2rem;
+	width: 70%;
+	text-align: center;
 	background-color: var(--secondary-clr);
 	border: var(--grey-border);
 	border-radius: var(--border-rad-full);
 	color: var(--white-clr);
 	text-decoration: none;
+	transition: 0.3s;
+	font-weight: var(--bold-font);
 }
 
 .contribute-support a:hover,
