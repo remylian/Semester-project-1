@@ -9,6 +9,7 @@ h1 {
 h2 {
 	font-size: var(--fontsize-2);
 	margin:var(--no-margin);
+	text-align: center;
 }
 
 h3 {
@@ -57,14 +58,15 @@ h3 {
 }
 
 .info-admission {
+	margin: auto;
 	border-radius: var(--border-rad-full);
-	margin: var(--margin-centered);
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	background-color: var(--box-background);
-	width: 25%;
-	padding-block: var(--padding-1);
+	width: 35%;
+	padding: var(--padding-1);
 	font-size: var(--fontsize-1-5);
 	box-shadow: 3px 3px 3px var(--main-clr);
 }

@@ -11,6 +11,9 @@ address {
 	font-style: normal;
 }
 
+.grid-style {
+}
+
 .link-button {
 	padding: var(--padding-1);
 	transition: 0.3s;
