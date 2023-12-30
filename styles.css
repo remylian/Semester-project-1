@@ -12,6 +12,10 @@ address {
 }
 
 .grid-style {
+	display:grid;
+	grid-template-columns: repeat(auto-fit(minmax 250,1fr));
+	margin: auto;
+	
 }
 
 .link-button {
