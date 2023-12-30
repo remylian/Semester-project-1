@@ -81,9 +81,7 @@ h2{
 		text-decoration: none;
 	}
 	/* footer */
-footer{
-	display: none;
-}
+
 	/* landing page */
 
 .info-main, .events-main, .events-exhibitions{
@@ -103,6 +101,7 @@ footer{
 
 	.info-admission{
 		width: 100%;
+		margin: 0;
 	}
 
 	/* explore page */
