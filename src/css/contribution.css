@@ -9,10 +9,13 @@
 
 ul {
 	color: black;
+	padding-left: 0;
 	padding-block: 5rem;
 	display: grid;
+	margin: 0 2rem;
+	gap: 3rem;
 	justify-content: space-evenly;
-	grid-template-columns: repeat(3, 25%);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .contribute-support,
@@ -29,9 +32,12 @@ ul {
 	border-radius: var(--border-rad-full);
 }
 
-.contribute-support p,
-.contribute-volunteer p,
-.contribute-intern p {
+ul img {
+	border-radius: var(--border-rad-full);
+	outline: 1px solid;
+}
+
+p {
 	padding: 0.5rem 1rem;
 	width: 80%;
 }
@@ -42,21 +48,11 @@ ul {
 	padding: 1rem 2rem;
 	width: 70%;
 	text-align: center;
-	background-color: var(--secondary-clr);
 	border: var(--grey-border);
-	border-radius: var(--border-rad-full);
-	color: var(--white-clr);
-	text-decoration: none;
-	transition: 0.3s;
-	font-weight: var(--bold-font);
 }
 
 .contribute-support a:hover,
 .contribute-volunteer a:hover,
 .contribute-intern a:hover {
-	box-shadow: 3px 3px 3px var(--main-clr);
-	transition: 0.3s;
-	background-color: var(--white-clr);
-	border: var(--black-border);
-	color: var(--secondary-clr);
+	border: var(--grey-border);
 }

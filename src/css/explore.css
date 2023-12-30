@@ -4,6 +4,46 @@
 p {
 	margin: var(--spacer-1);
 }
+
+h3 {
+	font-size: var(--fontsize-3);
+}
+
+.explore ul {
+	padding-left: 0;
+	padding-block: 5rem;
+	display: grid;
+	margin: 0 var(--spacer-2);
+	gap: var(--spacer-3);
+	justify-content: space-evenly;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	list-style: none;
+}
+
+.explore li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.explore img {
+	width: 100%;
+	display: block;
+	max-height: 20rem;
+	height: auto;
+	object-fit: contain;
+}
+
+.explore-buttons {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	padding-block: var(--padding-1);
+	gap: 1rem;
+	border-bottom: var(--text-border);
+}
+
 .explore h2 {
 	padding-block: var(--padding-2);
 	margin: var(--no-margin);
@@ -13,83 +53,16 @@ p {
 	text-align: center;
 }
 
-.explore-kids {
+.explore-title {
 	display: flex;
+	padding-bottom: var(--padding-3);
+	flex-direction: column;
 	justify-content: center;
 }
 
-.explore-kids img {
-	width: 100%;
+.explore-title img {
+	width: 90%;
+	margin: auto;
 	height: auto;
 	border-radius: 2rem;
-}
-
-.explore-kids-msg {
-	max-width: 600px;
-	margin: 0 auto;
-	border-bottom: 2px solid var(--main-clr);
-	font-size: var(--fontsize-1);
-	text-align: left;
-}
-
-.explore-kids-buttons {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.explore-teachers,
-.explore-research {
-	display: flex;
-	justify-content: center;
-	gap: 2rem;
-	padding: var(--spacer-2);
-	padding-bottom: var(--spacer-2);
-}
-
-.explore-teachers img,
-.explore-research img {
-	max-width: 25rem;
-	border-radius: 0.5rem;
-}
-
-.explore-teachers-msg,
-.explore-research-msg {
-	max-width: 25rem;
-	font-size: var(--fontsize-1);
-}
-
-.explore-teachers-buttons,
-.explore-research-button,
-.explore-kids-buttons {
-	padding-block: var(--spacer-2);
-	display: flex;
-	justify-content: space-evenly;
-	border-bottom: 2px solid var(--main-clr);
-}
-
-.explore-teachers-button,
-.explore-research-button-1,
-.explore-kids-button {
-	border: var(--grey-border);
-}
-
-.explore-kids-button:hover,
-.explore-teachers-button:hover,
-.explore-research-button-1:hover {
-	box-shadow: 3px 3px 3px var(--main-clr);
-	transition: 0.3s;
-	background-color: var(--white-clr);
-	border: var(--black-border);
-	color: var(--secondary-clr);
-}
-
-.explore-research {
-	padding-block: var(--spacer-2);
-	display: flex;
-	justify-content: center;
-	gap: var(--spacer-2);
-}
-
-h3 {
-	font-size: var(--fontsize-3);
 }

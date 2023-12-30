@@ -11,10 +11,6 @@ address {
 	font-style: normal;
 }
 
-p {
-	margin: var(--no-margin);
-}
-
 .link-button {
 	padding: var(--padding-1);
 	transition: 0.3s;
@@ -38,12 +34,24 @@ p {
 	width: 100%;
 }
 
-@media (width<800px) {
+/* implementing responsive design: */
+
+@media (width<900px) {
 	/* header */
 
 	/* footer */
 
 	/* landing page */
+
+	.events-item {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.events-item img {
+		width: 100%;
+		height: auto;
+	}
 
 	/* explore page */
 

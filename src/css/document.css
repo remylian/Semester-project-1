@@ -29,22 +29,7 @@
 .privacy-btn,
 .terms-btn {
 	padding: 1rem 2rem;
-	transition: 0.3s;
-	background-color: var(--secondary-clr);
-	border: var(--black-border);
 	border-radius: 0.5rem;
-	font-weight: var(--bold-font);
-	color: var(--white-clr);
-	text-decoration: none;
-}
-
-.privacy-btn:hover,
-.terms-btn:hover {
-	box-shadow: 3px 3px 3px var(--main-clr);
-	transition: 0.3s;
-	background-color: var(--white-clr);
-	/* font-weight: ; */
-	color: var(--secondary-clr);
 }
 
 li {

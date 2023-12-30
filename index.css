@@ -29,7 +29,7 @@ h3 {
 
 .welcome-txt {
 	text-align: left;
-	padding-block: var(--padding-2);
+	padding: var(--padding-2);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -65,7 +65,7 @@ h3 {
 	background-color: var(--box-background);
 	width: 25%;
 	padding-block: var(--padding-1);
-	font-size: var(--fontsize-2);
+	font-size: var(--fontsize-1-5);
 	box-shadow: 3px 3px 3px var(--main-clr);
 }
 
@@ -117,13 +117,13 @@ h3 {
 .events-main {
 	display: flex;
 	flex-direction: column;
-	gap:;
+	gap: 0.5rem;
 	list-style: none;
 	max-width: 50%;
 }
 
 .events h2 {
-	padding-block: var(--spacer-2);
+	padding-block: var(--spacer-3);
 	margin: var(--no-margin);
 }
 
@@ -136,7 +136,7 @@ h3 {
 	font-size: var(--fontsize-1);
 }
 
-.events li {
+.events-item {
 
 	display: flex;
 	gap: 0.5rem;
