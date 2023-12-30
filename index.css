@@ -1,14 +1,8 @@
 /* HUSK VARIABLES! */
 
-h1 {
-	font-size: var(--fontsize-3);
-	margin: var(--no-margin);
-	padding-block: var(--spacer-1);
-}
-
 h2 {
 	font-size: var(--fontsize-2);
-	margin:var(--no-margin);
+	margin: var(--no-margin);
 	text-align: center;
 }
 
@@ -21,12 +15,11 @@ h3 {
 	display: flex;
 	justify-content: center;
 	background-color: black;
-	
 }
 
-.video-banner iframe{
-	border:none;
-	}
+.video-banner iframe {
+	border: none;
+}
 
 .welcome-txt {
 	text-align: left;
@@ -72,8 +65,9 @@ h3 {
 	box-shadow: 3px 3px 3px var(--main-clr);
 }
 
-.info-admission p{
+.info-admission p {
 	padding: var(--padding-1);
+	object-fit: contain;
 }
 
 .info-categories {
@@ -93,7 +87,6 @@ h3 {
 	height: auto;
 	object-fit: contain;
 }
-
 
 .category-wrapper {
 	padding-block: var(--spacer-1);
@@ -144,7 +137,6 @@ h3 {
 }
 
 .events-item {
-
 	display: flex;
 	gap: 0.5rem;
 }
@@ -175,8 +167,8 @@ h3 {
 	box-shadow: 3px 3px 3px var(--main-clr);
 	border: 2px solid var(--main-clr);
 	border-radius: var(--border-rad-full);
-	
 }
 
 .events-exhibitions p {
 	font-size: var(--fontsize-1);
+}
