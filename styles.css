@@ -42,6 +42,26 @@ address {
 @media (width<900px) {
 	/* header */
 
+	.nav-item{
+		display: none;
+	}
+
+	.nav-mobile {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		background-color: var(--main-clr);
+	
+		align-self: center;
+		justify-content: center;
+		border: var(--black-border);
+	}
+	
+	.nav-mobile-item {
+		background-color: var(--main-clr);
+		color: var(--white-clr);
+		text-decoration: none;
+	}
 	/* footer */
 
 	/* landing page */
