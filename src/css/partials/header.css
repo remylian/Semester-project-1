@@ -3,6 +3,10 @@
 	margin-top: var(--spacer-1);
 }
 
+.header-title {
+	font-size: var(--fontsize-3);
+}
+
 .nav-main {
 	padding-block: 1rem;
 	background-color: var(--main-clr);

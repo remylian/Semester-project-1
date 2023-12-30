@@ -16,6 +16,14 @@ p {
 }
 
 .link-button {
+	padding: var(--padding-1);
+	transition: 0.3s;
+	background-color: var(--secondary-clr);
+	border: var(--black-border);
+	border-radius: var(--border-rad-full);
+	text-decoration: none;
+	color: var(--white-clr);
+	font-weight: var(--bold-font);
 }
 
 .link-button:hover {
@@ -28,4 +36,28 @@ p {
 
 .banner {
 	width: 100%;
+}
+
+@media (width<800px) {
+	/* header */
+
+	/* footer */
+
+	/* landing page */
+
+	/* explore page */
+
+	.explore-teachers,
+	.explore-research {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	/* exhibition page */
+
+	/* document pages */
+
+	/* contribution page */
+
+	/* contact page */
 }

@@ -19,13 +19,13 @@ p {
 }
 
 .explore-kids img {
-	max-width: 50rem;
+	width: 100%;
 	height: auto;
 	border-radius: 2rem;
 }
 
 .explore-kids-msg {
-	max-width: 50rem;
+	max-width: 600px;
 	margin: 0 auto;
 	border-bottom: 2px solid var(--main-clr);
 	font-size: var(--fontsize-1);
@@ -34,10 +34,11 @@ p {
 
 .explore-kids-buttons {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
-.explore-teachers {
+.explore-teachers,
+.explore-research {
 	display: flex;
 	justify-content: center;
 	gap: 2rem;
@@ -57,31 +58,19 @@ p {
 	font-size: var(--fontsize-1);
 }
 
-/* .explore-teachers-msg p,
-.explore-research-msg p {
-	margin: var(--no-margin);
-} */
-
 .explore-teachers-buttons,
 .explore-research-button,
 .explore-kids-buttons {
 	padding-block: var(--spacer-2);
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	border-bottom: 2px solid var(--main-clr);
 }
 
 .explore-teachers-button,
 .explore-research-button-1,
 .explore-kids-button {
-	padding: 1rem;
-	transition: 0.3s;
-	background-color: var(--secondary-clr);
 	border: var(--grey-border);
-	border-radius: 0.25rem;
-	color: white;
-	text-align: center;
-	text-decoration: none;
 }
 
 .explore-kids-button:hover,
@@ -98,7 +87,7 @@ p {
 	padding-block: var(--spacer-2);
 	display: flex;
 	justify-content: center;
-	gap: 2rem;
+	gap: var(--spacer-2);
 }
 
 h3 {

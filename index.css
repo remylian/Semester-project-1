@@ -12,7 +12,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: var(--fontsize-1-5);
 	margin: var(--no-margin);
 }
 
@@ -25,7 +25,6 @@ h3 {
 
 .video-banner iframe{
 	border:none;
-
 	}
 
 .welcome-txt {
@@ -34,7 +33,7 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	font-size: var(--fontsize-2);
+	font-size: var(--fontsize-1-5);
 }
 
 .welcome-txt h2,
@@ -48,7 +47,6 @@ h3 {
 
 .welcome-txt a {
 	border-radius: var(--border-rad-full);
-	/* text-decoration: none; */
 	font-weight: var(--bold-font);
 	color: var(--main-clr);
 }
@@ -107,20 +105,6 @@ h3 {
 	display: inline-block;
 	margin-top: var(--spacer-2);
 	padding: 1rem;
-	transition: 0.3s;
-	background-color: var(--secondary-clr);
-	border: var(--black-border);
-	border-radius: var(--border-rad-full);
-	text-decoration: none;
-	color: var(--white-clr);
-	font-weight: var(--bold-font);
-}
-
-.info-tour-button:hover {
-	box-shadow: 3px 3px 3px var(--main-clr);
-	background-color: var(--white-clr);
-	border: var(--black-border);
-	color: var(--secondary-clr);
 }
 
 .events {
@@ -170,23 +154,7 @@ h3 {
 
 .events-exhibitions-btn {
 	display: inline-block;
-	padding: 1rem;
 	margin-bottom: 2rem;
-	transition: 0.3s;
-	background-color: var(--secondary-clr);
-	border: var(--black-border);
-	border-radius: var(--border-rad-full);
-	text-decoration: none;
-	color: var(--white-clr);
-	font-weight: var(--bold-font);
-}
-
-.events-exhibitions-btn:hover {
-	box-shadow: 3px 3px 3px var(--main-clr);
-	transition: 0.3s;
-	background-color: var(--white-clr);
-	border: var(--grey-border);
-	color: var(--secondary-clr);
 }
 
 .events-exhibitions {
