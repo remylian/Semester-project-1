@@ -44,6 +44,15 @@ address {
 /* implementing responsive design: */
 
 @media (width<900px) {
+
+h1 {
+	font-size: var(--fontsize-2);
+}
+
+h2{
+	font-size: var(--fontsize-1-5);
+}
+
 	/* header */
 
 	.nav-item{
@@ -101,3 +110,6 @@ address {
 	/* contribution page */
 
 	/* contact page */
+	.contact-banner h2 {
+		font-size: var(--fontsize-1-5);
+	}
