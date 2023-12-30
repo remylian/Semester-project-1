@@ -84,6 +84,11 @@ h2{
 
 	/* landing page */
 
+.info-main, .events-main, .events-exhibitions{
+	max-width: 100%;
+	padding: var(--padding-1);
+}
+
 	.events-item {
 		display: flex;
 		flex-direction: column;
@@ -92,6 +97,10 @@ h2{
 	.events-item img {
 		width: 100%;
 		height: auto;
+	}
+
+	.info-admission{
+		width: 100%;
 	}
 
 	/* explore page */
