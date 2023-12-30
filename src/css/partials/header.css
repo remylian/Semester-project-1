@@ -22,12 +22,13 @@ h1 {
 }
 
 .nav-hamburger {
-	/* display: none; */
+	display: none;
 }
 
 summary {
 	list-style: none;
 }
+
 .nav-item {
 	font-size: var(--fontsize-1);
 	transition: color 0.3s ease;
@@ -40,7 +41,7 @@ summary {
 
 /* til mediaquery: */
 
-.nav-mobile {
+/* .nav-mobile {
 	display: flex;
 	position: absolute;
 	flex-direction: column;
@@ -55,7 +56,7 @@ summary {
 	background-color: var(--main-clr);
 	color: var(--white-clr);
 	text-decoration: none;
-}
+} */
 
 .nav-item::after {
 	content: '';

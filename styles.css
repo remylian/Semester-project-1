@@ -15,7 +15,7 @@ address {
 	display:grid;
 	grid-template-columns: repeat(auto-fit(minmax 250,1fr));
 	margin: auto;
-	
+
 }
 
 .link-button {
@@ -49,6 +49,12 @@ address {
 	.nav-item{
 		display: none;
 	}
+
+.nav-hamburger{
+	display:flex;
+
+
+}
 
 	.nav-mobile {
 		display: flex;
