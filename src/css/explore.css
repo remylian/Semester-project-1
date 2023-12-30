@@ -1,6 +1,3 @@
-/* img {
-	width: 100%;
-} */
 p {
 	margin: var(--spacer-1);
 }
@@ -24,24 +21,24 @@ h3 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	border-bottom: var(--text-border);
 }
 
 .explore img {
 	width: 100%;
 	display: block;
-	max-height: 20rem;
+	/* max-height: 20rem; */
 	height: auto;
 	object-fit: contain;
 }
 
 .explore-buttons {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	flex-wrap: wrap;
 	width: 100%;
 	padding-block: var(--padding-1);
 	gap: 1rem;
-	border-bottom: var(--text-border);
 }
 
 .explore h2 {

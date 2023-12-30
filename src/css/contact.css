@@ -1,4 +1,18 @@
 .contact-us {
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-banner {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.contact-banner img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
 }
 
 .contact-form {

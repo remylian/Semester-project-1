@@ -26,9 +26,11 @@
 	max-height: 320px;
 	height: auto;
 	object-fit: contain;
+	border-radius: var(--border-rad-full);
 }
 
 .exhibition-item {
+	border-bottom: var(--text-border);
 	padding: 1rem;
 }
 
