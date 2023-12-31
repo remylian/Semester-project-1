@@ -174,14 +174,13 @@ h3 {
 }
 
 .events-exhibitions {
-	width: 25%;
+	width: 90%;
 	margin-bottom: 2rem;
 	padding: 2rem 1rem;
 	background-color: var(--box-background);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	/* max-width: 40%; */
 	box-shadow: 3px 3px 3px var(--main-clr);
 	border: 2px solid var(--main-clr);
 	border-radius: var(--border-rad-full);
