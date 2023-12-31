@@ -58,17 +58,15 @@ h3 {
 
 .info-admission {
 	margin: auto;
-	border-radius: var(--border-rad-full);
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--box-background);
-	max-width: 45%;
+	max-width: 100%;
+	height: auto;
 	padding: var(--padding-1);
 	font-size: var(--fontsize-1-5);
 	font-weight: var(--bold-font);
-	box-shadow: 3px 3px 3px var(--main-clr);
 }
 
 .info-admission p {
