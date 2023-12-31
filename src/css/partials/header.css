@@ -1,12 +1,12 @@
 h1 {
-	font-size: var(--fontsize-3);
-	margin: var(--no-margin);
 	padding-block: var(--spacer-1);
+	margin: var(--no-margin);
+	font-size: var(--fontsize-3);
 }
 
 .header-wrapper {
-	text-align: center;
 	margin-top: var(--spacer-1);
+	text-align: center;
 }
 
 .header-title {
@@ -15,10 +15,10 @@ h1 {
 
 .nav-main {
 	padding-block: 1rem;
-	background-color: var(--main-clr);
 	display: flex;
 	justify-content: center;
 	gap: 6rem;
+	background-color: var(--main-clr);
 }
 
 .nav-hamburger {
@@ -26,9 +26,9 @@ h1 {
 }
 
 .nav-item {
-	font-size: var(--fontsize-1);
-	transition: color 0.3s ease;
 	position: relative;
+	transition: color 0.3s ease;
+	font-size: var(--fontsize-1);
 	font-family: var(--bubble-font);
 	font-weight: bold;
 	color: white;
@@ -37,23 +37,31 @@ h1 {
 
 /* til mediaquery: */
 
-/* .nav-mobile {
+.nav-mobile {
+	/* padding:  */
 	display: flex;
-	position: absolute;
 	flex-direction: column;
-	background-color: var(--main-clr);
-
-	align-self: end;
 	justify-content: center;
+	gap: 1rem;
+	align-self: center;
+	position: absolute;
+	background-color: var(--main-clr);
 	border: var(--black-border);
+	border-radius: var(--border-rad-full);
+	font-size: var(--fontsize-1-5);
 }
 
 .nav-mobile-item {
+	padding: 0.5rem;
 	background-color: var(--main-clr);
 	color: var(--white-clr);
 	text-decoration: none;
-} */
+}
 
+.active-mobile {
+	background-color: white;
+	color: var(--main-clr);
+}
 .nav-item::after {
 	content: '';
 	position: absolute;
@@ -75,6 +83,6 @@ h1 {
 }
 
 .nav-item.active::after {
-	text-decoration: underline;
 	width: 100%;
+	text-decoration: underline;
 }

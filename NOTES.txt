@@ -5,18 +5,8 @@
 						</tr>
 
 						<tr>
-							<td>TUESDAY</td>
+							<td>TUE-THUR</td>
 							<td>10:00 - 1600</td>
-						</tr>
-
-						<tr>
-							<td>WEDNESDAY</td>
-							<td>10:00 - 16:00</td>
-						</tr>
-
-						<tr>
-							<td>THURSDAY</td>
-							<td>10:00 - 16:00</td>
 						</tr>
 
 						<tr>

@@ -43,6 +43,7 @@ address {
 /* implementing responsive design: */
 
 @media (width<900px) {
+	
 	h1 {
 		font-size: var(--fontsize-2);
 	}
@@ -62,7 +63,8 @@ address {
 	}
 
 	summary {
-		list-style: none;
+		list-style: none; 
+
 	}
 
 	.nav-mobile {
@@ -74,13 +76,22 @@ address {
 		font-size: var(--fontsize-1-5);
 		align-self: center;
 		justify-content: center;
+		padding: 
 		border: var(--black-border);
+		border-radius: var(--border-rad-full);
 	}
 
 	.nav-mobile-item {
 		background-color: var(--main-clr);
 		color: var(--white-clr);
 		text-decoration: none;
+		padding: 0.5rem;
+		
+	}
+
+	.active-mobile {
+		background-color: white;
+		color: var(--main-clr);
 	}
 
 	/* footer */
