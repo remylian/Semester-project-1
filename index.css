@@ -89,7 +89,7 @@ h3 {
 }
 
 .category-wrapper {
-	padding-block: var(--spacer-1);
+	padding: var(--spacer-1);
 	gap: var(--spacer-2);
 	background-color: var(--box-background);
 	border-radius: var(--border-rad-full);
