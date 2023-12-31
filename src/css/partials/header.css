@@ -59,7 +59,7 @@ h1 {
 }
 
 .active-mobile {
-	background-color: white;
+	background-color: var(--white-clr);
 	color: var(--main-clr);
 }
 .nav-item::after {

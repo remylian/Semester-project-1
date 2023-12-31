@@ -10,7 +10,7 @@ ul {
 	display: flex;
 	justify-content: space-evenly;
 	list-style: none;
-	gap: 3rem;
+	gap: var(--spacer-3);
 }
 
 table {
@@ -35,7 +35,7 @@ table {
 }
 
 .footer-legal a {
-	color: white;
+	color: var(--white-clr);
 }
 
 .footer-socialmedia-icons {

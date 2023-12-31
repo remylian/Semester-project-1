@@ -43,13 +43,12 @@ address {
 /* implementing responsive design: */
 
 @media (width<900px) {
-	
 	h1 {
-		font-size: var(--fontsize-2);
+		font-size: var(--fontsize-1-5);
 	}
 
 	h2 {
-		font-size: var(--fontsize-1-5);
+		font-size: var(--fontsize-1-2);
 	}
 
 	/* header */
@@ -63,11 +62,10 @@ address {
 	}
 
 	summary {
-		list-style: none; 
-
+		list-style: none;
 	}
 
-	.nav-mobile {
+	/* .nav-mobile {
 		display: flex;
 		position: absolute;
 		flex-direction: column;
@@ -90,9 +88,9 @@ address {
 	}
 
 	.active-mobile {
-		background-color: white;
+		background-color: var(--white-clr);
 		color: var(--main-clr);
-	}
+	} */
 
 	/* footer */
 
