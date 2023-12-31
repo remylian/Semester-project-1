@@ -20,7 +20,7 @@
 	display: grid;
 	gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	max-width: 50%;
+	max-width: 90%;
 	margin: auto;
 	padding: var(--padding-1);
 	background-color: var(--box-background);
@@ -29,6 +29,7 @@
 
 .contact-form h2 {
 	margin-top: 0;
+	text-align: center;
 }
 
 .wrapper {
@@ -44,17 +45,13 @@
 	border-radius: var(--border-rad-full);
 }
 
-.contact-form h2 {
-	text-align: center;
-}
-
 fieldset {
 	padding: 0 1rem;
 	border: none;
 }
 
 legend {
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 	padding: 0;
 }
 
@@ -66,7 +63,7 @@ label {
 
 button {
 	width: 100%;
-	margin-top: 1rem;
+	margin: 1rem 0;
 	padding: 1rem 2rem;
 	transition: 0.3s;
 	background-color: var(--secondary-clr);
@@ -93,10 +90,10 @@ button:hover {
 .visit-grid {
 	padding-block: var(--padding-2);
 	display: grid;
-	gap: 3rem;
+	gap: 2rem;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	max-width: 50%;
-	margin: 0 auto;
+	max-width: 90%;
+	margin: auto;
 }
 
 .visit-hours,
