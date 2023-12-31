@@ -4,29 +4,29 @@ footer {
 }
 
 ul {
+	display: flex;
+	justify-content: space-evenly;
+	gap: var(--spacer-3);
 	max-width: 100%;
 	margin: var(--nomargin);
 	padding-left: 0;
-	display: flex;
-	justify-content: space-evenly;
 	list-style: none;
-	gap: var(--spacer-3);
 }
 
 table {
 	/* text-align: left; */
-	border-bottom: 1px solid white;
+	border-bottom: 1px solid var(--white-clr);
 }
 .address {
 	font-style: normal;
 }
 
 .footer-items {
-	color: white;
+	padding-block: 3rem;
 	display: flex;
 	justify-content: space-around;
+	color: var(--white-clr);
 	list-style: none;
-	padding-block: 3rem;
 }
 
 .footer-legal {
@@ -35,8 +35,8 @@ table {
 }
 
 .footer-legal a {
-	color: var(--white-clr);
 	margin-bottom: 0.5rem;
+	color: var(--white-clr);
 }
 
 .footer-socialmedia-icons {
