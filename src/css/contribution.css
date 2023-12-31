@@ -9,13 +9,13 @@
 }
 
 ul {
-	padding-left: 0;
 	padding-block: 5rem;
 	display: grid;
-	margin: 0 2rem;
-	gap: var(--spacer-2);
 	justify-content: space-evenly;
+	gap: var(--spacer-2);
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	margin: 0 2rem;
+	padding-left: 0;
 	list-style: none;
 }
 
@@ -31,23 +31,22 @@ ul {
 }
 
 ul img {
-	border-radius: var(--border-rad-full);
 	object-fit: contain;
-	height: auto;
 	width: 90%;
+	height: auto;
+	border-radius: var(--border-rad-full);
 }
 
 p {
-	padding: 0.5rem 1rem;
 	width: 80%;
+	padding: 0.5rem 1rem;
 }
 
 .contribute-button {
-	padding: 1rem 2rem;
 	width: 70%;
-
-	text-align: center;
+	padding: 1rem 2rem;
 	border: var(--grey-border);
+	text-align: center;
 }
 
 .contribute-support a:hover,
