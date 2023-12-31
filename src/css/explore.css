@@ -2,7 +2,7 @@ p {
 	margin: var(--spacer-1);
 }
 
-h3 {
+.explore h2 {
 	font-size: var(--fontsize-3);
 }
 
@@ -27,8 +27,7 @@ h3 {
 .explore img {
 	width: 100%;
 	display: block;
-	/* max-height: 20rem; */
-	height: auto;
+	max-height: 20rem;
 	object-fit: contain;
 }
 

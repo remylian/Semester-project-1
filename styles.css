@@ -11,12 +11,12 @@ address {
 	font-style: normal;
 }
 
-.grid-style {
+/* .grid-style {
 	display: grid;
 	grid-template-columns: repeat(auto-fit(minmax 250, 1fr));
 	max-width: 90%;
 	margin: auto;
-}
+} */
 
 .link-button {
 	padding: var(--padding-1);
@@ -66,33 +66,6 @@ address {
 		list-style: none;
 	}
 
-	/* .nav-mobile {
-		display: flex;
-		position: absolute;
-		flex-direction: column;
-		gap: 1rem;
-		background-color: var(--main-clr);
-		font-size: var(--fontsize-1-5);
-		align-self: center;
-		justify-content: center;
-		padding: 
-		border: var(--black-border);
-		border-radius: var(--border-rad-full);
-	}
-
-	.nav-mobile-item {
-		background-color: var(--main-clr);
-		color: var(--white-clr);
-		text-decoration: none;
-		padding: 0.5rem;
-		
-	}
-
-	.active-mobile {
-		background-color: var(--white-clr);
-		color: var(--main-clr);
-	} */
-
 	/* footer */
 
 	footer ul {
@@ -108,43 +81,39 @@ address {
 	}
 
 	/* landing page */
-	/* 
-.info-main, .events-main, .events-exhibitions{
-	max-width: 100%;
-	padding: var(--padding-1); */
-}
 
-.events-item {
-	display: flex;
-	flex-direction: column;
-}
+	.events-item {
+		display: flex;
+		flex-direction: column;
+	}
 
-.events-item img {
-	width: 100%;
-	height: auto;
-}
+	.events-item img {
+		width: 100%;
+		height: auto;
+	}
 
-.info-admission {
-	width: 100%;
-	margin: 0;
-	text-align: center;
-}
+	.info-admission {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+	}
 
-/* explore page */
+	/* explore page */
 
-.explore-teachers,
-.explore-research {
-	flex-direction: column;
-	align-items: center;
-}
+	.explore-teachers,
+	.explore-research {
+		flex-direction: column;
+		align-items: center;
+	}
 
-/* exhibition page */
+	/* exhibition page */
 
-/* document pages */
+	/* document pages */
 
-/* contribution page */
+	/* contribution page */
 
-/* contact page */
-.contact-banner h2 {
-	font-size: var(--fontsize-1-5);
+	/* contact page */
+	.contact-banner h2 {
+		font-size: var(--fontsize-1-5);
+	}
 }
