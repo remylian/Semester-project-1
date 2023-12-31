@@ -36,6 +36,7 @@ table {
 
 .footer-legal a {
 	color: var(--white-clr);
+	margin-bottom: 0.5rem;
 }
 
 .footer-socialmedia-icons {
