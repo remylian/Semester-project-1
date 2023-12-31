@@ -1,6 +1,7 @@
-/* .banner {
+.banner {
 	width: 100%;
-} */
+	height: auto;
+}
 
 .title {
 	font-size: var(--fontsize-3);
@@ -12,18 +13,18 @@ ul {
 	padding-block: 5rem;
 	display: grid;
 	margin: 0 2rem;
-	gap: 3rem;
+	gap: var(--spacer-2);
 	justify-content: space-evenly;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	list-style: none;
 }
 
-.contribute li {
-	padding-block: 1rem;
+.contribute-item {
+	padding-block: var(--padding-1);
 	box-shadow: 3px 3px 3px grey;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-	gap: 1rem;
+	justify-content: space-evenly;
 	align-items: center;
 	background-color: var(--box-background);
 	border-radius: var(--border-rad-full);
@@ -31,8 +32,9 @@ ul {
 
 ul img {
 	border-radius: var(--border-rad-full);
-
-	outline: 1px solid;
+	object-fit: contain;
+	height: auto;
+	width: 90%;
 }
 
 p {
@@ -40,8 +42,6 @@ p {
 	width: 80%;
 }
 
-.contribute-support a,
-.contribute-volunteer a,
 .contribute-button {
 	padding: 1rem 2rem;
 	width: 70%;
