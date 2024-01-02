@@ -7,13 +7,13 @@ p {
 }
 
 .explore ul {
-	padding-left: 0;
 	padding-block: 5rem;
 	display: grid;
-	margin: 0 var(--spacer-2);
-	gap: var(--spacer-3);
 	justify-content: space-evenly;
+	gap: var(--spacer-3);
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	margin: 0 var(--spacer-2);
+	padding-left: 0;
 	list-style: none;
 }
 
@@ -25,19 +25,19 @@ p {
 }
 
 .explore img {
-	width: 100%;
-	display: block;
-	max-height: 20rem;
 	object-fit: contain;
+	display: block;
+	width: 100%;
+	max-height: 20rem;
 }
 
 .explore-buttons {
-	display: flex;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-	width: 100%;
 	padding-block: var(--padding-1);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
 	gap: 1rem;
+	width: 100%;
 }
 
 .explore h2 {
@@ -51,14 +51,14 @@ p {
 
 .explore-title {
 	display: flex;
-	padding-bottom: var(--padding-3);
 	flex-direction: column;
 	justify-content: center;
+	padding-bottom: var(--padding-3);
 }
 
 .explore-title img {
 	width: 90%;
-	margin: auto;
 	height: auto;
+	margin: auto;
 	border-radius: 2rem;
 }
